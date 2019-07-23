@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 10px auto;
+}
+
+label{
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 2px solid rgb(44, 61, 99);
+    border-radius: 5px;
+}
+
+.singleuser{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.301);
+}
+
+.users{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.nickname{
+    font-size: 30px;
+    margin: auto 0;
+    padding: 0 20px;
+    text-decoration: none;
+    color: rgb(33, 50, 82);
+}
